@@ -1,7 +1,5 @@
-checkpoint 存放自编码器预训练权重 https://github.com/CompVis/latent-diffusion 与autoencoder_kl_32x32x4.yaml对应
+The checkpoint stores the pretrained weights of the autoencoder, corresponding to autoencoder_kl_32x32x4.yaml, available at https://github.com/CompVis/latent-diffusion.
 
-第一阶段autoencodetrain.py 训练自编码器
-
-第二阶段cmcm.py 训练测试CMCM
-
-代码基于LDM 详见 https://github.com/CompVis/latent-diffusion
+First Stage: autoencodetrain.py is used to train the autoencoder.
+Second Stage: cmcm.py is used to train CMCM.
+The code is based on LDM. For details, refer to https://github.com/CompVis/latent-diffusion.
